@@ -1,0 +1,6 @@
+{
+    "require": {
+        "linwj/exchanges": "^1.3",
+        "predis/predis": "^1.1"
+    }
+}

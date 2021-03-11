@@ -50,7 +50,7 @@ okex:depth:1:BTC-USD-210625
 
 okex:depth:1:BCH-USD-210625
 
-![img](./1.png)
+![img](./2.jpg)
 
 redis数据key分4段
 1段：交易所名称

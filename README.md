@@ -13,6 +13,7 @@
 1：exchanges-php SDK本身支持守护进程例如：
 
 php huobi_server_spot.php start -d
+
 php huobi_client_spot.php start -d
 
 2:采用supervisor管理

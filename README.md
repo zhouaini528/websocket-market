@@ -4,6 +4,10 @@
 
 该方案是通过搭建websocket server获取数据，存放在redis。业务端可以通过redis实时获取行情数据。
 
+#### 安装
+
+直接下载代码，更新compoer update，可以直接运行代码。
+
 #### websocket server搭建有两种方式。
 
 1：exchanges-php SDK本身支持守护进程例如：

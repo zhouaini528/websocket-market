@@ -52,16 +52,23 @@ okex:depth:1:BCH-USD-210625
 
 ![img](./2.jpg)
 
-redis数据key分4段
+##### redis数据key分4段
 1段：交易所名称
+
 2段：数据类型  默认：depth   其他选项：kline_1m  kline_5m   kline_1d
+
 3段：价格类型  0：现货  1：币本位交割  2：usdt永续  3：币本位永续
+
 4段：币对
 
-redis数据value
+##### redis数据value
 average_buy:买一价
+
 average_sell:卖一价
+
 average_price:成交价
+
 microtime:更新时间
+
 origin：原始数据保存
 

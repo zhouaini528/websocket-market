@@ -27,19 +27,27 @@ php huobi_client_spot.php start -d
 #### 最终redis效果如下
 
 binance:depth:0:BTCUSDT
+
 binance:depth:0:BCHUSDT
 
 bitmex:depth:1:XBTH21
+
 bitmex:depth:1:XBTM21
 
 huobi:depth:0:btcusdt
+
 huobi:depth:0:bchusdt
+
 huobi:depth:1:BTC_CQ
+
 huobi:depth:1:BCH_CQ
 
 okex:depth:0:BTC-USDT
+
 okex:depth:0:BCH-USDT
+
 okex:depth:1:BTC-USD-210625
+
 okex:depth:1:BCH-USD-210625
 
 ![img](./1.png)

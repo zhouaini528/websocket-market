@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 require 'config.php';
 
 $binance = new \Lin\Binance\BinanceWebSocket();

@@ -2,7 +2,7 @@
 
 use \Lin\Huobi\HuobiWebSocket;
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 require 'config.php';
 
 $huobi = new HuobiWebSocket();

@@ -1,6 +1,6 @@
 <?php
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $binance = new \Lin\Binance\BinanceWebSocket();
 
@@ -8,6 +8,7 @@ $binance->config([
     //Do you want to enable local logging,default false
     //'log'=>true,
     //Or set the log name
+
     'log'=>['filename'=>'spot'],
 
     //Daemons address and port,default 0.0.0.0:2208

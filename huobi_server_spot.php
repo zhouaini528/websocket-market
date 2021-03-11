@@ -2,7 +2,7 @@
 
 use \Lin\Huobi\HuobiWebSocket;
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $Huobi = new HuobiWebSocket();
 
@@ -10,7 +10,7 @@ $Huobi->config([
     //Do you want to enable local logging,default false
     'log'=>false,
     //Or set the log name
-    //'log' => ['filename' => 'future'],
+    //'log' => ['filename' => 'spot'],
 
     //Daemons address and port,default 0.0.0.0:2211
     //'global'=>'127.0.0.1:2211',
@@ -22,7 +22,7 @@ $Huobi->config([
     //'data_time'=>0.5,
 
     //Set up subscription platform, default 'spot'
-    'platform' => 'future', //options value 'spot' 'future' 'swap' 'linear' 'option'
+    'platform' => 'spot', //options value 'spot' 'future' 'swap' 'linear' 'option'
     //Or you can set it like this
     /*
     'platform'=>[

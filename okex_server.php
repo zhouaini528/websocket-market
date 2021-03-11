@@ -1,7 +1,7 @@
 <?php
 
 
-require '../vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $okex = new \Lin\Okex\OkexWebSocket();
 

@@ -12,13 +12,13 @@
 
 #### websocket server搭建有两种方式。
 
-1：exchanges-php SDK本身支持守护进程例如：
+**1:exchanges-php SDK本身支持守护进程例如：**
 
 php huobi_server_spot.php start -d
 
 php huobi_client_spot.php start -d
 
-2:采用supervisor管理
+**2:采用supervisor管理**
 
 配置如下[supervisor.ini](./supervisor.ini)
 
@@ -53,7 +53,7 @@ okex:depth:1:BTC-USD-210625
 
 okex:depth:1:BCH-USD-210625
 
-![img](./2.jpg)
+![img](2.jpg)
 
 ##### redis数据key分4段
 1段：交易所名称

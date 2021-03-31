@@ -27,8 +27,8 @@ $bitmex->config([
 
 $bitmex->subscribe([
     'orderBook10:XBTUSD',
-    'orderBook10:XBTH21',
     'orderBook10:XBTM21',
+    'orderBook10:XBTU21',
 ]);
 
 

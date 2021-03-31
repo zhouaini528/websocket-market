@@ -32,11 +32,11 @@ $okex->subscribe([
     'spot/depth5:BSV-USDT',
 
 
-    'futures/depth5:BTC-USD-210326',
-    'futures/depth5:BCH-USD-210326',
-    'futures/depth5:ETH-USD-210326',
-    'futures/depth5:EOS-USD-210326',
-    'futures/depth5:BSV-USD-210326',
+    'futures/depth5:BTC-USD-210924',
+    'futures/depth5:BCH-USD-210924',
+    'futures/depth5:ETH-USD-210924',
+    'futures/depth5:EOS-USD-210924',
+    'futures/depth5:BSV-USD-210924',
 ]);
 
 
@@ -57,6 +57,7 @@ $okex->getSubscribes(function($data) use($client){
                 $type=1;
                 break;
             }
+            default:continue;
         }
 
         $key='okex:depth:'.$type.':'.$rdata['symbol'];
@@ -112,7 +113,7 @@ $okex->getSubscribes(function($data) use($client){
     ["22883.03", "1", "0", "1"],
     ["22882.72", "149", "0", "3"]
 ],
-        "instrument_id": "BTC-USD-210326",
+        "instrument_id": "BTC-USD-210924",
         "timestamp": "2020-12-17T03:01:22.604Z"
     }]
 }
